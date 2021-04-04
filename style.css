@@ -1,0 +1,92 @@
+body {
+	background-color: #202020;
+	color: #D7DADC;
+	font-family: 'Work Sans',sans-serif;
+	font-size: 15px;
+	text-align: center;
+} 
+
+a 	{ 
+	text-decoration: none;
+	color: rgb(235,235,235);
+}
+	a:hover	{text-decoration: underline;}
+
+	h2	{ line-height: 1.2;
+		font-weight:lighter	;
+		font-family: perpetua, sans serif;
+}
+@media (max-width: 540px){
+	.box_content {
+		width: 30%;
+	}
+}
+
+#banner{
+ 	background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, .1) ), url("image/mob-st-em.jpg");
+	background-size: 100%;
+	margin-bottom: 80px;
+}
+#Hello{
+	float: left;
+	margin-left: 120px;
+	width: 330px;
+	margin-top: 95px;
+	margin-bottom: 50px;
+	padding: 20px 30px;
+	background-color: rgba(20, 20, 20, 0.5) ;
+	box-shadow: 4px 10px 35px rgba(0,0,0, 0.45);
+	border-bottom: 5px solid #b89959;
+	text-shadow: 1px 1px 1px rgba(1, 1, 1, .5);
+	text-align: center;	
+	letter-spacing: 1.7px;
+	font-family: 'Helvetica Neue',serif;
+	font-size: 20px;
+	border-radius: .8%;
+}
+#Hello img{
+	border-radius: 45%
+}
+#Hello_right{
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: 10px;
+	padding: 25px 35px;
+	box-shadow: 4px 10px 35px rgba(0,0,0, 0.45);
+	background-color: rgba(1,1,1,.6);
+	border-bottom: 5px solid #b89959;
+	border-radius: .8%;
+	width: 300px;
+}
+#LinkedIn{
+	background-color: #b89959;
+	padding: 1px 3px;
+	margin: 15px 80px;
+	box-shadow: 4px 10px 35px rgba(0,0,0, 0.45);
+	font-size: 12px;
+}
+.box_content { 
+	display: inline-block;
+	padding: 15px 35px;
+	margin: 30px 100px;
+	width: 700px;
+	box-shadow: 4px 10px 35px rgb(0 0 0 / 40%);
+	border-radius: 3px;
+	border-bottom: 5px solid #b89959;
+	font-size: 22px;
+	background-color: rgba(38,38,38);
+    font-family: perpetua,sans-serif;
+}
+.box_content:hover {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	width: 850px;
+	font-size: 27px;
+	transition: .3s;
+	text-align: center;
+}
+#footer{
+		display: inline;
+		padding: 0px;	
+		margin-top: 50px;
+}
